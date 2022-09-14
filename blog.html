@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-rtl.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+     <!-- navbar -->
+      
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="runhil"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">الصفحة الرئيسية<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">معلومات عنا</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            أقسام الموقع
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">صفحة 1</a>
+            <a class="dropdown-item" href="#">صفحة 2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">صفحة 3</a>
+          </div>
+        </li>
+        <li class="nav-item border-right border-left border-warning">
+            <a class="nav-link active text-warning " href="blog.html">مدونة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اتصل بنا</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- jumbotron -->
+<div class="jumbotron py-4">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6 col-12">
+        <h2>المدونة</h2>
+      </div>
+      
+      <div class="col-md-6 col-12">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">الصفحة الرئيسية</a></li>
+            <li class="breadcrumb-item active" aria-current="page" >المدونة </li>
+          </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="section blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-12">
+        <div class="jumbotron py-4">
+          <div class="blog-desc">
+            <h4>عنوان المدونة يظهر هنا</h4>
+            <span>24 مايو 2022</span>
+            <p>من أجل الوصول إلى أصغر التفاصيل <br> من منا يقوم بأي تمرين بدني شاق ، إلا من أجل الحصول على بعض الفوائد منه؟ ولكن من يستطيع أن ينتقد بحق من يريد أن يكون في تلك المتعة التي لا يترتب عليها مشكلة.</p>
+            <a href="blogdetails.html" class="btn btn-warning">التفاصيل</a>
+          </div>
+          <div class="blog-img ">
+            <img class="w-100" src="images/blog/single-blog-image-bg-1.jpg" alt="blog">
+          </div>
+        </div>
+        
+        <div class="jumbotron py-4">
+          <div class="blog-img">
+            <img class="w-100" src="images/blog/single-blog-image-bg-2.jpg" alt="blog">
+          </div>
+          <div class="blog-desc mx-4">
+            <h4>عنوان المدونة يظهر هنا</h4>
+            <span>24 مايو 2022</span>
+            <p>من أجل الوصول إلى أصغر التفاصيل <br> من منا يقوم بأي تمرين بدني شاق ، إلا من أجل الحصول على بعض الفوائد منه؟ ولكن من يستطيع أن ينتقد بحق من يريد أن يكون في تلك المتعة التي لا يترتب عليها مشكلة.</p>
+            <a href="blogdetails.html" class="btn btn-warning">التفاصيل</a>
+          </div>
+       
+        </div>
+          <nav  aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled ">
+                <a class="page-link " href="#" tabindex="-1">&laquo</a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item ">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item"><a class="page-link" href="#">7</a></li>
+              <li class="page-item"><a class="page-link" href="#">8</a></li>
+  
+              <li class="page-item">
+                <a class="page-link" href="#">&raquo;</a>
+              </li>
+            </ul>
+          </nav>
+     
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="search">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="ابحث" aria-label="Username" aria-describedby="basic-addon1">
+            <div class="input-group-prepend">
+              <span class="input-group-text bg-white" id="basic-addon1"><i class="fa fa-search text-warning"></i></span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="border mb-0 p-3">المشاركات الآخيرة</h3>
+          <ul class="list-unstyled border">
+            <li class="p-3">
+              <span class="d-block">عنوان المدونة هنا</span>
+              <span class="d-block text-info">24 مايو 2022</span>
+            </li>
+            <li class="p-3">
+              <span class="d-block">عنوان المدونة هنا</span>
+              <span class="d-block text-info">24 مايو 2022</span>
+            </li>
+            <li class="p-3">
+              <span class="d-block">عنوان المدونة هنا</span>
+              <span class="d-block text-info">24 مايو 2022</span>
+            </li>
+            <li class="p-3">
+              <span class="d-block">عنوان المدونة هنا</span>
+              <span class="d-block text-info">24 مايو 2022</span>
+            </li>
+            <li class="p-3">
+              <span class="d-block">عنوان المدونة هنا</span>
+              <span class="d-block text-info">24 مايو 2022</span>
+            </li>
+          </ul>
+        </div>
+        <div class="my-4">
+          <h3 class="border mb-0 p-3">الفئات</h3>
+          <ul class="list-unstyled p-3 border">
+            <li class="d-inline-block bg-light p-1 ">المنشئات</li>
+            <li class="d-inline-block bg-light p-1 ">العمارة</li>
+            <li class="d-inline-block bg-light p-1 ">إعادة البناء</li>
+            <li class="d-inline-block bg-light p-1 ">هندسة</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="section">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-3 col-sm-6 col-12">
+      <div class="footer__item">
+        <h3><img src="images/logo.png" alt="logo"></h3>
+        <p class="text-white">نحن مستعدون لمساعدتك دائما .</p>
+        <p class="text-white ">210-2750 Quadra Street Victoria ، كندا</p>
+        <p class="text-muted">الهاتف: + 324-5442-415</p>
+        <p class="text-muted">الفاكس: + 324-5442-415</p>
+        <p class="text-muted">support@construction.com</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6 col-12">
+      <h5 class="mb-4 text-white">روابط سريعة</h5>
+      <ul class="list-unstyled">
+        <li class="mb-2"> <a class="text-warning" href="#">&lt; الصقحة الرئيسية</a></li>
+        <li class="mb-2"> <a class="text-warning" href="#">&lt; حول</a></li>
+        <li class="mb-2"> <a class="text-warning" href="#">&lt; خدمات</a></li>
+        <li class="mb-2"> <a class="text-warning" href="#">&lt; المشاريع</a></li>
+        <li class="mb-2"> <a class="text-warning" href="#">&lt; صالة العرض</a></li>
+        <li class="mb-2"> <a class="text-warning" href="#">&lt; مقالات</a></li>
+        <li class="mb-2"><a class="text-warning" href="#"> &lt; اتصل</a></li>
+
+      </ul>
+    </div>
+    <div class="col-md-3 col-sm-6 col-12">
+      <h5 class="text-white">المشاركات الآخيرة</h5>
+      <div class="footer-left mt-4 pb-2 border-dark border-bottom media position-relative">
+        <img src="images/footer-thumb-img-1.jpg" alt="شركة بناء">
+        <div> 
+          <a href="#" class=" btn stretched-link text-warning">شركة بناء</a>
+          <p class="text-muted">10 يونيو 2021</p>
+        </div>
+      </div>
+      <div class="footer-left  pb-2 border-dark border-bottom media position-relative">
+        <img src="images/footer-thumb-img-2.jpg" alt="شركة بناء">
+        <div> 
+          <a href="#" class=" btn stretched-link text-warning">شركة بناء</a>
+          <p class="text-muted">10 يونيو 2021</p>
+        </div>
+      </div>   
+        <div class="footer-left  pb-2 border-dark border-bottom media position-relative">
+        <img src="images/footer-thumb-img-3.jpg" alt="شركة بناء">
+        <div> 
+          <a href="#" class=" btn stretched-link text-warning">شركة بناء</a>
+          <p class="text-muted">10 يونيو 2021</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6 col-12 ">
+      <h5 class="text-white mb-4">تواصل معنا</h5>
+      <span class="text-muted footer-sub-dscr">اشترك في النشرة الإخبارية لدينا للحصول على أخبار مهمة وعروض مذهلة</span>
+      <div class="form footer-email mt-4">
+        <input type="email" class="form-control" placeholder="اكتب بريدك الإلكتروني">
+        <button class="btn btn-warning btn-sub footer-email-btn">اشترك</button>
+      </div>
+      <div class="footer-sub mt-4 ">
+        <a href="#"><i class="text-white fa fa-facebook fa-xl"></i></a>
+        <a href="#"><i class="text-white fa fa-twitter fa-xl"></i></a>
+        <a href="#"><i class="text-white fa fa-google-plus fa-xl"></i></a>
+        <a href="#"><i class="text-white fa fa-youtube fa-xl"></i></a>
+        <a href="#"><i class="text-white fa fa-paypal fa-xl"></i></a>
+      </div>
+  </div>
+  </div>
+</footer>
+      <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
